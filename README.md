@@ -1,6 +1,6 @@
-# Sonoff-Switch-TeHu
+# Sonoff-S20-Plug
 
-Firmware to use a Sonoff TH10/16 device as a remote relay and temp/humidity sensor with MQTT and WiFi capabilities.
+Firmware to use a Sonoff S20 device as a remote relay with MQTT and WiFi capabilities.
 
 !!! WORK IN PROGRESS !!!
 
