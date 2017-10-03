@@ -1,5 +1,5 @@
 /*
-   Sonoff-Touch-Plug
+   Sonoff-S20-Plug
    Firmware to use a Sonoff S20 wallplug device as a remote relay and temp/humidity sensor with MQTT and WiFi capabilities.
 
    Supports OTA update
