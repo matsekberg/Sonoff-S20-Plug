@@ -7,7 +7,7 @@
 
 #include <ArduinoJson.h>          //https://github.com/bblanchon/ArduinoJson
 
-#define CONFIG_VERSION "004TEHU"
+#define CONFIG_VERSION "004PLUG"
 
 //flag for saving data
 bool shouldSaveConfig = false;
@@ -134,9 +134,9 @@ void initWifiManager(boolean zapall) {
 
   // fetches ssid and pass and tries to connect
   // if it does not connect it starts an access point with the specified name
-  // here  "Sonoff-Touch-TeHu"
+  // here  "Sonoff-S20-Plug"
   // and goes into a blocking loop awaiting configuration
-  if (!wifiManager.autoConnect("Sonoff-Touch-TeHu", "wificonfig")) {
+  if (!wifiManager.autoConnect("Sonoff-S20-Plug", "wificonfig")) {
     Serial.println("failed to connect and hit timeout");
     delay(3000);
     // reset and try again, or maybe put it to deep sleep
