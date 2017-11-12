@@ -6,8 +6,8 @@ char mqtt_server[40] = "10.0.1.50";
 char mqtt_port[6] = "1883";
 char mqtt_user[24] = "";
 char mqtt_pass[24] = "";
-char unit_id[16] = "s20p0";
-char group_id[16] = "s20pgrp0";
+char unit_id[16] = "orig0";
+char group_id[16] = "origgrp0";
 
 // The extra parameters to be configured (can be either global or just in the setup)
 // After connecting, parameter.getValue() will get you the configured value
